@@ -1,0 +1,23 @@
+[33mcommit d8467c24741610ce568f91c0605d81e65cee7a69[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: correajoao <johnac.victor@gmail.com>
+Date:   Thu Jul 1 14:54:41 2021 -0300
+
+    CRUD Scaffolding
+
+[33mcommit df612ccdecc52c91e21b5ad9bbe41b5a5678eddc[m
+Author: correajoao <johnac.victor@gmail.com>
+Date:   Thu Jul 1 13:16:48 2021 -0300
+
+    Deleting Department - View and Controller
+
+[33mcommit 1a4451514309c2f2d4a23169474e95d04eaa1f15[m
+Author: correajoao <johnac.victor@gmail.com>
+Date:   Thu Jul 1 13:12:47 2021 -0300
+
+    First Department - Model-Controller-View
+
+[33mcommit a94e60b37e63b396d075810b2e7e852b9ee5db63[m
+Author: correajoao <johnac.victor@gmail.com>
+Date:   Mon Jun 28 13:01:33 2021 -0300
+
+    Project Created
