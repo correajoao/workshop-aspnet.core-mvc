@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SelectWebMvc.Data;
 
 namespace SelectWebMvc.Migrations
 {
     [DbContext(typeof(SelectWebMvcContext))]
-    partial class SelectWebMvcContextModelSnapshot : ModelSnapshot
+    [Migration("20210705201440_NewEntities")]
+    partial class NewEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
