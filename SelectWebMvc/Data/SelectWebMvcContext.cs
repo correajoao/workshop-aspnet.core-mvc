@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using SelectWebMvc.Models;
 
-namespace SelectWebMvc.Data
+namespace SelectWebMvc.Models
 {
     public class SelectWebMvcContext : DbContext
     {

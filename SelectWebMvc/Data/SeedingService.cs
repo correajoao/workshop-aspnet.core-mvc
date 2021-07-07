@@ -30,15 +30,15 @@ namespace SelectWebMvc.Data
             Department d3 = new Department(3, "Fashion");
             Department d4 = new Department(4, "Books");
 
-            Seller s1 = new Seller(1, "Ying", "real.ying@gmail.com",new DateTime(1998/05/15),
+            Seller s1 = new Seller(1, "Ying", "real.ying@gmail.com",new DateTime(1998, 7, 21),
                 1000.0,d1);
-            Seller s2 = new Seller(2, "Fernando", "fernando.im@gmail.com", new DateTime(1995 / 03 / 22),
+            Seller s2 = new Seller(2, "Fernando", "fernando.im@gmail.com", new DateTime(1995, 3, 7),
                 1550.50, d2);
-            Seller s3 = new Seller(3, "Lian", "lian.queen@gmail.com", new DateTime(1990 / 11 / 08),
+            Seller s3 = new Seller(3, "Lian", "lian.queen@gmail.com", new DateTime(1990, 11, 23),
                 2700.0, d3);
-            Seller s4 = new Seller(4, "Talus", "talus.sk@gmail.com", new DateTime(2002 / 02 / 01),
+            Seller s4 = new Seller(4, "Talus", "talus.sk@gmail.com", new DateTime(2002, 2, 1),
                 17500.0, d4);
-            Seller s5 = new Seller(5, "Makoa", "challenge.makoa@gmail.com", new DateTime(1805 / 07 / 17),
+            Seller s5 = new Seller(5, "Makoa", "challenge.makoa@gmail.com", new DateTime(1805, 7, 17),
                 1750.0, d4);
 
             SalesRecord r1 = new SalesRecord(1, new DateTime(2018, 09, 15), 11000.0, SaleStatus.Billed, s1);
