@@ -9,7 +9,7 @@ namespace SelectWebMvc.Data
 {
     public class SeedingService
     {
-        private SelectWebMvcContext _context;
+        private readonly SelectWebMvcContext _context;
 
         public SeedingService(SelectWebMvcContext context)
         {
